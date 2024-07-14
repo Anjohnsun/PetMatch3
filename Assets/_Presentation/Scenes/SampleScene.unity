@@ -595,7 +595,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1139933177}
-  - component: {fileID: 1139933175}
   - component: {fileID: 1139933178}
   m_Layer: 0
   m_Name: GamingField
@@ -604,26 +603,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1139933175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139933174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b83a66939468db40843abbf5341c248, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tilePrefab: {fileID: 7344037626440073160, guid: a8668d9006970db4089a71c9a061ad3d, type: 3}
-  _rows: 6
-  _xSpacing: 0.1
-  _columns: 8
-  _ySpacing: 0.1
-  _anchor: {fileID: 1139933177}
-  _gameIcons: {fileID: 11400000, guid: 40d85030d10941044b5c07f8e5c8e610, type: 2}
-  _gridDrawer: {fileID: 1139933178}
 --- !u!4 &1139933177
 Transform:
   m_ObjectHideFlags: 0
@@ -651,6 +630,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d982a93282a43c49953ee32d3c8ca10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tilePrefab: {fileID: 7344037626440073160, guid: a8668d9006970db4089a71c9a061ad3d, type: 3}
+  _gameIcons: {fileID: 11400000, guid: fa80db4dc36b0d044a75090d3598317f, type: 2}
+  _size: {x: 6, y: 8}
+  _spacing: {x: 0.1, y: 0.1}
+  _anchor: {fileID: 1139933177}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
